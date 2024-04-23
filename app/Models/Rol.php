@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rol extends Model
 {
-    protected $fillable = ['nombre', 'descripcion'];
+    protected $fillable = ['name', 'description'];
 
     const ENCARGADO = 'Encargado';
     const CLIENTE = 'Cliente';

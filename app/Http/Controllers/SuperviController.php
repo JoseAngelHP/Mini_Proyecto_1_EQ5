@@ -9,6 +9,6 @@ class SuperviController extends Controller
     public function inicio()
     {
         // Aqui mandara la pagina de inicio del supervisor
-        return view('supervi.house');
+        return view('supervi.home');
     }
 }

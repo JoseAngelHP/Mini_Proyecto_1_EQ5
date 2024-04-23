@@ -26,6 +26,6 @@ class HouseController extends Controllers
 
     public function inicio()
     {
-        return view('house');
+        return view('home');
     }
 }

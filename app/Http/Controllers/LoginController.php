@@ -35,15 +35,15 @@ class LoginController extends Controller
         $usuarioRole = strtolower($usuario->rol);
         
         if ($usuariRole === 'encarg') {
-            return redirect(route('encarg.house'));
+            return redirect(route('encarg.home'));
         } elseif ($usuarioRole === 'client') {
-            return redirect(route('client.house'));
+            return redirect(route('client.home'));
         } elseif ($usuarioRole === 'contad') {
-            return redirect(route('contad.house'));
+            return redirect(route('contad.home'));
         } elseif ($usuarioRole === 'supervi') {
-            return redirect(route('supervi.house'));
+            return redirect(route('supervi.home'));
         } elseif ($usuarioRole === 'vended') {
-            return redirect(route('vended.house'));
+            return redirect(route('vended.home'));
         } else {
             return redirect(route('login'));
         }

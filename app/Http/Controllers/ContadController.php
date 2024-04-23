@@ -9,6 +9,6 @@ class ContadController extends Controllers
     public function inicio()
     {
          // Aqui mandara la pagina de inicio del contador
-        return view('contad.house');
+        return view('contad.home');
     }
 }

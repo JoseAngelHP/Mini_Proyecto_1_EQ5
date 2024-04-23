@@ -9,6 +9,6 @@ class VendedController extends Controller
     public function inicio()
     {
         // Aqui mandara la pagina de inicio del vendedor
-        return view('vended.house');
+        return view('vended.home');
     }
 }

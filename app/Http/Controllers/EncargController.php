@@ -9,6 +9,6 @@ class EncargController extends Controllers
     public function inicio()
     {
         // Aqui mandara la pagina de inicio del encargado
-        return view('encarg.house');
+        return view('encarg.home');
     }
 }
