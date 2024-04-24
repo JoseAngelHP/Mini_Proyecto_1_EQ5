@@ -40,6 +40,30 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'api' => [
+            'driver' => 'token',
+            'provider' => 'users',
+        ],
+        'supervisor' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        'contador' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        'cliente' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        'encargado' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        'vendedor' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
     ],
 
     /*
